@@ -1,0 +1,14 @@
+:root {
+  /* colors */
+  --dark-navy: #242742;
+  --pale-navy: #36384D;
+  --grey: #9294a0;
+  --white: #ffffff;
+  --tomato: #ff6257;
+  
+
+  /* fonts */
+  --default-font-size: 1rem;
+  --default-font-family: 'Roboto', sans-serif;
+  --default-font-weight: 400;
+}

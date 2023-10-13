@@ -1,4 +1,6 @@
-import Signup from "pages/Signup";
+import Signup from "features/Signup";
+
+import 'styles/index.css';
 
 const App = () => (
   <Signup />
