@@ -1,9 +1,9 @@
-import Signup from "features/Signup";
-
-import 'styles/index.css';
+import appStyles from 'styles/modules/App.module.css';
 
 const App = () => (
-  <Signup />
+  <div className={appStyles.app}>
+    <p>Hello</p>
+  </div>
 );
 
 export default App;
