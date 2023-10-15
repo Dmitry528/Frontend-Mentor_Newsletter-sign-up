@@ -1,6 +1,6 @@
 .app {
   display: grid;
-  place-items: center;
+  place-content: center;
 
   min-height: 100vh;
   background-color: var(--dark-navy);

@@ -10,3 +10,7 @@ body {
   font-weight: var(--default-font-weight);
   color: var(--dark-navy);
 }
+
+h1 {
+  margin: 0;
+}
