@@ -3,4 +3,10 @@
 
   padding: 1.5rem;
   border-radius: 2.25rem;
+
+  display: grid;
+  grid-template-areas:
+    "info image"
+    "form image";
+  gap: 2.5rem 4rem;
 }

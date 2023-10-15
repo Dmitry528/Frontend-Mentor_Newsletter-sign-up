@@ -1,5 +1,9 @@
+import signUpImageStyles from 'styles/modules/components/SignUpImage.module.css';
+
 export const SignUpImage = () => (
-  <p>Sign up image</p>
+  <div className={signUpImageStyles.signUpImage}>
+    <p>Sign up image</p>
+  </div>
 );
 
 export default SignUpImage;

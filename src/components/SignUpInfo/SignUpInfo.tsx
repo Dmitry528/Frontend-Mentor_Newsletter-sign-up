@@ -1,5 +1,7 @@
+import signUpInfoStyles from 'styles/modules/components/SignUpInfo.module.css';
+
 export const SignUpInfo = () => (
-  <p>Sign up info</p>
+  <div className={signUpInfoStyles.signUpInfo}>Sign up info</div>
 )
 
 export default SignUpInfo;

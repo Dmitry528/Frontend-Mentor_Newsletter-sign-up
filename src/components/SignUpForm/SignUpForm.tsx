@@ -1,5 +1,7 @@
+import signUpFormStyles from 'styles/modules/components/SignUpForm.module.css';
+
 export const SignUpForm = () => (
-  <p>Signup form</p>
+  <div className={signUpFormStyles.signUpForm}>Signup form</div>
 );
 
 export default SignUpForm;
