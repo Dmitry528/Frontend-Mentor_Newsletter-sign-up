@@ -5,7 +5,7 @@ import successIcon from 'assets/images/icon-success.svg';
 export const SignUpInfo = () => (
   <div className={signUpInfoStyles.signUpInfo}>
     <h1 className={signUpInfoStyles.signUpInfo__title}>Stay updated!</h1>
-    <p>
+    <p className={signUpInfoStyles.signUpInfo__text}>
       Join 60,000+ product managers receiving monthly updates on:
     </p>
     <ul className={signUpInfoStyles.signUpInfo__list}>
