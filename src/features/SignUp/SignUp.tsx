@@ -6,8 +6,10 @@ import signUpStyles from 'styles/modules/features/SignUp.module.css';
 
 const SignUp = () => (
   <div className={signUpStyles.signUp}>
-    <SignUpInfo />
-    <SignUpForm />
+    <div className={signUpStyles.signUpContent}>
+      <SignUpInfo />
+      <SignUpForm />
+    </div>
     <SignUpImage />
   </div>
 );

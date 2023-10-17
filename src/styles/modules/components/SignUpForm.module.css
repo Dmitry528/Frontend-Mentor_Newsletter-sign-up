@@ -1,6 +1,4 @@
 .signUpForm {
-  grid-area: form;
-
   display: flex;
   flex-direction: column;
 
@@ -39,6 +37,32 @@
   color: var(--white);
   font-weight: 700;
   
-
+  cursor: pointer;
   border: none;
+}
+
+.signUpForm__button:hover {
+  background: var(--primary-gradient);
+  box-shadow: 0rem 1rem 2rem 0rem var(--primary-box-shadow-color);
+}
+
+.signUpForm__errorMessage {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--tomato);
+}
+
+.signUpForm__inputError {
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--tomato);
+  color: var(--tomato);
+  background-color: var(--input-background-error-state);
+
+  outline: none;
+}
+
+.inputInfo {
+  display: flex;
+  justify-content: space-between;
 }
