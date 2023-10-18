@@ -1,3 +1,17 @@
 .signUpImage {
   grid-area: image;
+
+  display: flex;
+}
+
+@media screen and (max-width: 992px) {
+  .signUpImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .signUpImage {
+    display: flex;
+  }
 }

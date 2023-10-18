@@ -8,7 +8,7 @@
 
   display: grid;
   grid-template-areas: "content image";
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr max-content;
   gap: 4rem;
 }
 
@@ -16,4 +16,25 @@
   grid-area: content;
   display: grid;
   gap: 2.5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .signUp {
+    gap: 0rem;
+    margin: 0rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .signUp {
+    padding: 0rem;
+    grid-template-areas: "image" "content";
+    max-width: 23.4375rem;
+    gap: 2.5rem;
+  }
+
+  .signUpContent {
+    padding: 0rem 1.5rem 2.5rem 1.5rem;
+  }
 }
