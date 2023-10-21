@@ -7,7 +7,7 @@ export const SignUpImage = () => (
   <div className={signUpImageStyles.signUpImage}>
     <picture>
       <source srcSet={mobileIllustration} media='(max-width: 576px)' />
-      <img src={desktopIllustration} alt='desktop illustration' />
+      <img src={desktopIllustration} alt='illustration' />
     </picture>
   </div>
 );
