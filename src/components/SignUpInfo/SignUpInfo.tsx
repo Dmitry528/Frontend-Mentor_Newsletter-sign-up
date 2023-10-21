@@ -12,8 +12,8 @@ export const SignUpInfo = () => (
       Join 60,000+ product managers receiving monthly updates on:
     </p>
     <ul className={signUpInfoStyles.signUpInfo__list}>
-      {signUpItems.map(({ text }: SignUpItem) => (
-        <li className={signUpInfoStyles.signUpInfo__item}>
+      {signUpItems.map(({ text }: SignUpItem, idx: number) => (
+        <li className={signUpInfoStyles.signUpInfo__item} key={idx}>
           <img className={signUpInfoStyles.signUpInfo__icon} src={successIcon} alt='success icon' />
           <p>{text}</p>
         </li>
