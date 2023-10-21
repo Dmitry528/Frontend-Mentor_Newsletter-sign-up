@@ -1,9 +1,5 @@
 import buttonStyles from 'styles/modules/components/Button.module.css';
-
-export interface IButtonProps {
-  type: 'submit' | 'button';
-  children: string;
-}
+import { IButtonProps } from 'types/Button';
 
 export const Button = ({
   type,

@@ -1,11 +1,6 @@
 import inputStyles from 'styles/modules/components/Input.module.css';
 
-export interface IInputProps {
-  label: string;
-  type: 'text';
-  placeholder: string;
-  errorMessage?: string;
-}
+import { IInputProps } from 'types/Input';
 
 export const Input = ({
   label,
