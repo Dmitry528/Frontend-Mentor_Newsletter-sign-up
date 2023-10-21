@@ -1,5 +1,7 @@
-import Button from 'components/Button';
 import signUpFormStyles from 'styles/modules/components/SignUpForm.module.css';
+
+import Button from 'components/Button';
+
 
 export const SignUpForm = () => (
   <form className={signUpFormStyles.signUpForm}>
