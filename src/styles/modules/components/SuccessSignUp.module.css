@@ -1,0 +1,25 @@
+.successSignUp {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 3rem 4rem 4rem 4rem;
+  max-width: 31.5rem;
+  gap: 2.5rem;
+  border-radius: 2.25rem;
+}
+
+.successSignUpText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.successSignUpText__title {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+
+.successSignUp__img {
+  height: 4rem;
+  width: 4rem;
+}

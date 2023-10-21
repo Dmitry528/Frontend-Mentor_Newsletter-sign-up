@@ -28,24 +28,6 @@
   border: 1px solid var(--dark-navy);
 }
 
-.signUpForm__button {
-  width: 100%;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  background-color: var(--dark-navy);
-
-  color: var(--white);
-  font-weight: 700;
-  
-  cursor: pointer;
-  border: none;
-}
-
-.signUpForm__button:hover {
-  background: var(--primary-gradient);
-  box-shadow: 0rem 1rem 2rem 0rem var(--primary-box-shadow-color);
-}
-
 .signUpForm__errorMessage {
   font-size: 0.75rem;
   font-weight: 700;

@@ -1,3 +1,4 @@
+import Button from 'components/Button';
 import signUpFormStyles from 'styles/modules/components/SignUpForm.module.css';
 
 export const SignUpForm = () => (
@@ -13,12 +14,7 @@ export const SignUpForm = () => (
         placeholder='email@company.com'
       />
     </div>
-    <button
-      className={signUpFormStyles.signUpForm__button}
-      type='submit'
-    >
-      Subscribe to monthly newsletter
-    </button>
+    <Button type='submit'>Subscribe to monthly newsletter</Button>
   </form>
 );
 
