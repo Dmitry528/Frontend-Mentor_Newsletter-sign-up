@@ -5,46 +5,8 @@
   gap: 1.5rem;
 }
 
-.inputForm {
+.signUpForm__form {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-}
-
-.signUpForm__label {
-  font-size: 0.75rem;
-  font-weight: 700;
-}
-
-.signUpForm__input {
-  border-radius: 0.5rem;
-  padding: 1rem 1.5rem;
-  border: 1px solid var(--grey);
-
-  outline: none;
-}
-
-.signUpForm__input:focus {
-  border: 1px solid var(--dark-navy);
-}
-
-.signUpForm__errorMessage {
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--tomato);
-}
-
-.signUpForm__inputError {
-  border-radius: 0.5rem;
-  padding: 1rem 1.5rem;
-  border: 1px solid var(--tomato);
-  color: var(--tomato);
-  background-color: var(--input-background-error-state);
-
-  outline: none;
-}
-
-.inputInfo {
-  display: flex;
-  justify-content: space-between;
 }
