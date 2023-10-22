@@ -6,6 +6,7 @@ export const Input = ({
   label,
   placeholder,
   type,
+  inputAttributes,
   errorMessage = "",
 }: IInputProps) => {
   return (
@@ -15,9 +16,10 @@ export const Input = ({
         <span className={inputStyles.signUpForm__errorMessage}>{errorMessage}</span>
       </div>
       <input
-        className={inputStyles.signUpForm__input}
+        className={`${inputStyles.signUpForm__input} ${errorMessage && inputStyles.signUpForm__inputError}`}
         type={type}
         placeholder={placeholder}
+        {...inputAttributes}
       />
     </>
   )

@@ -11,10 +11,6 @@
   outline: none;
 }
 
-.signUpForm__input:focus {
-  border: 1px solid var(--dark-navy);
-}
-
 .signUpForm__errorMessage {
   font-size: 0.75rem;
   font-weight: 700;
