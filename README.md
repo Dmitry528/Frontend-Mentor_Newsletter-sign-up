@@ -10,8 +10,8 @@ This is a solution to the [Newsletter sign-up form on Frontend Mentor](https://w
 
 ## Links
 
-- Solution URL: [click]()
-- Live Site URL: [click]()
+- Solution URL: [click](https://www.frontendmentor.io/solutions/news-letter-sign-up-react-smAXm46izk)
+- Live Site URL: [click](https://dmitry528.github.io/Frontend-Mentor_Newsletter-sign-up/)
 
 ## Built with
 
