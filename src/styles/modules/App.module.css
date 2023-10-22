@@ -5,3 +5,15 @@
   min-height: 100vh;
   background-color: var(--dark-navy);
 }
+
+@media screen and (max-width: 992px) {
+  .app {
+    place-content: start center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .app {
+    background-color: var(--white);
+  }
+}

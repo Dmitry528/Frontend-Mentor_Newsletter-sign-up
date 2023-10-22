@@ -3,3 +3,17 @@
 
   display: flex;
 }
+
+.signUpImage__picture {
+  display: flex;
+}
+
+@media screen and (max-width: 992px) {
+  .signUpImage__picture {
+    width: 100%;
+  }
+
+  .signUpImage__img {
+    width: 100%;
+  }
+}
