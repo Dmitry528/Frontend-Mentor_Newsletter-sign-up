@@ -15,10 +15,17 @@ This is a solution to the [Newsletter sign-up form on Frontend Mentor](https://w
 
 ## Built with
 
+### Main stack
 - React
+- React context
 - Typescript
-- CSS modules
+
+### Layout built with
 - Grid, Flexbox
+
+### Form validation
+- React-hook-form
+- Yup
 
 ## Author
 
